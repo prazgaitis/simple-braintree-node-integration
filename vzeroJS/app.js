@@ -21,11 +21,6 @@ var gateway = braintree.connect({
   privateKey: 'insert privateKey here'
 });
 
-//Generate client token without
-// gateway.clientToken.generate({}, function (err, response) {
-//   app.locals.clientToken = response.clientToken
-// });
-
 // Using the .html extension instead of having to name the views as *.ejs
 app.engine('.html', require('ejs').__express);
  
