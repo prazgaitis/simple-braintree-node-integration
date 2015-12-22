@@ -1,0 +1,19 @@
+<title><%= pageTitle %></title>
+
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/lodash.js/0.10.0/lodash.min.js"></script>
+
+
+<script src="https://js.braintreegateway.com/v2/braintree.js"></script>
+
+<form id="checkout" method="post" action="/checkout">
+  <div id="dropin"></div>
+  <input type="submit" value="Pay $10">
+</form>
+
+<script>
+braintree.setup(
+  "<%= clientToken %>",
+  'dropin', {
+    container: 'dropin'
+  });
+</script>

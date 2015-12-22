@@ -1,0 +1,17 @@
+{
+  "name": "vzeroJS",
+  "version": "1.0.0",
+  "description": "vzero integration in ExpressJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "vzero",
+    "Braintree",
+    "JavaScript"
+  ],
+  "author": "Paul Razgaitis",
+  "license": "ISC"
+}
